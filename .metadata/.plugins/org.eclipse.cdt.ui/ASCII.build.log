@@ -1,0 +1,66 @@
+12:23:42 **** Incremental Build of configuration Debug for project ASCII ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Average\\main2.o" "..\\Average\\main2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "f1\\f1.o" "..\\f1\\f1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "function\\function.o" "..\\function\\function.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "pointer1\\pointer1.o" "..\\pointer1\\pointer1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "ASCII\\ascii.o" "..\\ASCII\\ascii.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "type_casting\\type_cast.o" "..\\type_casting\\type_cast.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "pointer\\pointer.o" "..\\pointer\\pointer.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "if\\if.o" "..\\if\\if.c" 
+..\if\if.c: In function 'main':
+..\if\if.c:7:9: warning: too many arguments for format [-Wformat-extra-args]
+    7 |  printf("Enter your age for vote\n", age);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\if\if.c:7:9: warning: too many arguments for format [-Wformat-extra-args]
+..\if\if.c:7:2: warning: 'age' is used uninitialized in this function [-Wuninitialized]
+    7 |  printf("Enter your age for vote\n", age);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "math\\math.o" "..\\math\\math.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "pointer3\\pointer3.o" "..\\pointer3\\pointer3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "if2\\if2.o" "..\\if2\\if2.c" 
+..\if2\if2.c: In function 'main':
+..\if2\if2.c:16:10: warning: too many arguments for format [-Wformat-extra-args]
+   16 |   printf("num1 is bigger\n",num1);
+      |          ^~~~~~~~~~~~~~~~~~
+..\if2\if2.c:16:10: warning: too many arguments for format [-Wformat-extra-args]
+..\if2\if2.c:19:12: warning: too many arguments for format [-Wformat-extra-args]
+   19 |     printf("num2 is bigger\n",num2);
+      |            ^~~~~~~~~~~~~~~~~~
+..\if2\if2.c:19:12: warning: too many arguments for format [-Wformat-extra-args]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Average\\main.o" "..\\Average\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Average\\main1.o" "..\\Average\\main1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "if3\\if3.o" "..\\if3\\if3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "pointer2\\pointer2.o" "..\\pointer2\\pointer2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "bitwise\\bitwise.o" "..\\bitwise\\bitwise.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Float\\float.o" "..\\Float\\float.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "ternary\\ternary.o" "..\\ternary\\ternary.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "if1\\if1.o" "..\\if1\\if1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "tax\\tax.o" "..\\tax\\tax.c" 
+..\tax\tax.c: In function 'main':
+..\tax\tax.c:7:16: error: expected ';' before 'uint64_t'
+    7 |  double taxrate
+      |                ^
+      |                ;
+    8 |  uint64_t tax = income * taxrate/100;
+      |  ~~~~~~~~       
+..\tax\tax.c:8:26: error: 'taxrate' undeclared (first use in this function)
+    8 |  uint64_t tax = income * taxrate/100;
+      |                          ^~~~~~~
+..\tax\tax.c:8:26: note: each undeclared identifier is reported only once for each function it appears in
+..\tax\tax.c:12:11: warning: format '%Iu' expects argument of type 'size_t *', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+   12 |  scanf("%Iu",income);
+      |         ~~^  ~~~~~~
+      |           |  |
+      |           |  uint64_t {aka long long unsigned int}
+      |           unsigned int *
+..\tax\tax.c:12:11: warning: format '%Iu' expects argument of type 'size_t *', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+..\tax\tax.c:18:1: error: expected declaration or statement at end of input
+   18 | }
+      | ^
+..\tax\tax.c:8:11: warning: variable 'tax' set but not used [-Wunused-but-set-variable]
+    8 |  uint64_t tax = income * taxrate/100;
+      |           ^~~
+
+12:23:47 Build Failed. 3 errors, 10 warnings. (took 4s.640ms)
+

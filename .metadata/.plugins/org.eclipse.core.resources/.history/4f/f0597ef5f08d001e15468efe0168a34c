@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdint.h>
+
+struct CarModel
+	{
+		uint32_t carNumber;
+		uint32_t carPrice;
+		uint16_t carMaxSpeed;
+		float carWeight;
+	};
+
+int main(void)
+{
+	struct CarModel carBMW = {2021,15000,220,1330};
+	struct CarModel carFord = {4031,35000,160,1900.96};
+	return 0;
+
+
+
+
+	struct CarModel CarBMW = {.carNumber = 2021,.carWeight = 1330 ,.carMaxSpeed =220,.carPrice=15000};
+
+}

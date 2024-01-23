@@ -1,0 +1,6 @@
+15:42:29 **** Incremental Build of configuration Debug for project for_loop ****
+Info: Internal Builder is used for build
+gcc -o for_loop.exe for_loop.o 
+
+15:42:29 Build Finished. 0 errors, 0 warnings. (took 353ms)
+

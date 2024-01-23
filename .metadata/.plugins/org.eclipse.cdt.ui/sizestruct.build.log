@@ -1,0 +1,6 @@
+18:10:10 **** Incremental Build of configuration Debug for project sizestruct ****
+Info: Internal Builder is used for build
+gcc -o sizestruct.exe sizestruct.o 
+
+18:10:10 Build Finished. 0 errors, 0 warnings. (took 394ms)
+

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void)
+
+{
+	uint8_t someData[10] = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+
+	printf("contens of this array \n");
+
+	for(uint32_t i = 0 ; i < 10 ; i++)
+	{
+		printf("%x\t", someData[i]);
+
+	}
+
+	/**printf("0th element value =%x\n",someData[0]);
+
+	*(someData+1) = 0x9;
+
+	printf("0th element value =%x\n",*(someData+0));
+
+
+	return 0;
+
+}

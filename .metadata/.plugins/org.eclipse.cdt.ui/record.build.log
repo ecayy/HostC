@@ -1,0 +1,23 @@
+17:12:16 **** Rebuild of configuration Debug for project record ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'read_menu_code':
+..\main.c:94:1: warning: control reaches end of non-void function [-Wreturn-type]
+   94 | }
+      | ^
+..\main.c: In function 'check_roll_number':
+..\main.c:147:1: warning: control reaches end of non-void function [-Wreturn-type]
+  147 | }
+      | ^
+..\main.c: In function 'add_new_record':
+..\main.c:163:1: warning: control reaches end of non-void function [-Wreturn-type]
+  163 | }
+      | ^
+..\main.c: In function 'delete_record':
+..\main.c:179:1: warning: control reaches end of non-void function [-Wreturn-type]
+  179 | }
+      | ^
+gcc -o record.exe main.o 
+
+17:12:17 Build Finished. 0 errors, 4 warnings. (took 533ms)
+

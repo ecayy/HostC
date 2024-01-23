@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void)
+
+{
+	uint8_t someData[10] = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+	printf("0th element value =%x\n",someData[0]);
+
+	*(someData+1) = 0x9;
+
+	printf("0th element value =%x\n",*(someData+0));
+
+
+	return 0;
+
+}

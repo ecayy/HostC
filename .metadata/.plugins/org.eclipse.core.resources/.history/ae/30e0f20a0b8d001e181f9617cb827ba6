@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void)
+
+{
+	uint8_t data = 10;
+
+	data = 50;
+
+	printf("Value = %u\n", data);
+
+
+	getchar();
+
+
+}

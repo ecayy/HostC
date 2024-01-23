@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void)
+
+{
+	uint8_t const data = 10;
+
+	printf("Value = %u\n", data);
+
+	uint8_t *ptr = &data;
+
+	data = 50;
+
+	printf("Value = %u\n", data);
+
+
+	getchar();
+
+
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdint.h>
+
+void wait_for_user_input(void);
+
+int main(void)
+
+
+{
+	int32_t nItem1, nItem2;
+	printf("Array swapping program\n");
+	printf("Enter no of elements of Array-1 and Array-2: ");
+	scanf("%ld,%ld,", &nItem1,&nItem2);
+
+
+
+
+
+
+	wait_for_user_input();
+
+	return 0;
+
+
+
+
+}

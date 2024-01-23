@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe,org.eclipse.launchbar.core.descriptorType.default\:average.exe,org.eclipse.launchbar.core.descriptorType.default\:bitwise_Evenodd.exe,org.eclipse.launchbar.core.descriptorType.default\:var_address.exe,org.eclipse.launchbar.core.descriptorType.default\:whileloop.exe,org.eclipse.launchbar.core.descriptorType.default\:whileloop1.exe,org.eclipse.launchbar.core.descriptorType.default\:whileloop_even1.exe,org.eclipse.launchbar.core.descriptorType.default\:whileloop_even.exe,org.eclipse.launchbar.core.descriptorType.default\:for_loop.exe,org.eclipse.launchbar.core.descriptorType.default\:whileloop_even2.exe,org.eclipse.launchbar.core.descriptorType.default\:for_loop1.exe,org.eclipse.launchbar.core.descriptorType.default\:structinit.exe,org.eclipse.launchbar.core.descriptorType.default\:sizestruct.exe,org.eclipse.launchbar.core.descriptorType.default\:structPacket.exe,org.eclipse.launchbar.core.descriptorType.default\:arrays.exe,org.eclipse.launchbar.core.descriptorType.default\:arrays1.exe,org.eclipse.launchbar.core.descriptorType.default\:arrays2.exe,org.eclipse.launchbar.core.descriptorType.default\:passing_array.exe,org.eclipse.launchbar.core.descriptorType.default\:string_ex.exe,org.eclipse.launchbar.core.descriptorType.default\:abc.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ASCII.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:abc.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:arrays.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:arrays.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:whileloop1.exe/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:whileloop_even.exe/activeLaunchMode=run

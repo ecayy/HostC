@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void)
+
+{
+	uint8_t someData[10] = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+
+	printf("contens of this array \n");
+
+	for(uint32_t i = 0 ; i < 10 ; i++)
+	{
+		printf("%x\t", someData[i]);
+
+	}
+
+	someData[2] = 0x33;
+	printf("\n");
+	for(uint32_t i = 0 ; i < 10 ; i++)
+		{
+			printf("%x\t", someData[i]);
+
+		}
+	array_display(someData)
+
+	return 0;
+}
+
+void array_display()
+
+{
+
+}
